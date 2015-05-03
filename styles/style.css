@@ -1,0 +1,27 @@
+html	{
+	font-size: 10px;
+}
+
+body	{
+	font-family: Helvetica, Arial, sans-serif;
+	color: $black;
+	font-weight: 400;
+	font-size: 18px;
+
+	line-height: 1.2em;
+	cursor: default;
+	
+	-webkit-font-feature-settings: 'tnum';
+	-moz-font-feature-settings: 'tnum';
+	-ms-font-feature-settings: 'tnum';
+	font-feature-settings: 'tnum';
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
